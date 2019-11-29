@@ -2,8 +2,9 @@
 
 ## Récupérer les sources et créer votre branche personnelle
 - Cloner le projet git : 
-`git clone http://gitlab.isima.fr/bcaure/tp-base-html-css-javascript.git`
+`git clone http://gitlab.isima.fr/bcaure/td0-basic-html-css-js.git`
 - Créer une branche :
+`cd td0-basic-html-css-js`
 `git branch 2019-<nom de famille>`
 `git checkout 2019-<nom de famille>`
 - Soumettre la branche :
