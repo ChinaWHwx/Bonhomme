@@ -2,9 +2,9 @@
 
 Le but est de ce TD est d'évaluer le niveau de chacun sur les bases de chaque langage.
 
-Le but est de reproduire la scène _bonhomme.gif_ avec des éléments HTML, des styles CSS et de l'animer en Javascript.
+On va reproduire la scène _bonhomme.gif_ de ce repo avec des éléments HTML, des styles CSS et ensuite l'animer en Javascript.
 
-Nous n'utilisons pas de framework ni d'outils comme NPM dans ce TD.
+Nous n'utilisons pas de framework ni d'outil comme NPM dans ce TD.
 
 ### Exercice 1 : Récupérez les sources et créer votre branche personnelle
 - Clonez le projet git : 
@@ -46,16 +46,18 @@ Nous n'utilisons pas de framework ni d'outils comme NPM dans ce TD.
 >
 > Dans Chrome devtools, onglet Console, toutes les commandes Javascript que nous taperons seront interprétées sur notre page
 >
-> Nous allons voir ensemble comment récupérer notre élément body et lui ajouter des flocons dynamiquement
+> Nous allons voir ensemble comment récupérer notre élément body et lui ajouter des flocons dynamiquement grâce aux fonctions [createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement) et [querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 
 
 ### Exercice 4 : Améliorez le code dans le fichier bonhomme.js
-- recopier le code de la démonstration dans le fichier bonhomme.js
-- faire en sorte que les flocons aient une position aléatoire
-  - bonus : éviter que les flocons se chevauchent
-  - bonus 2 : certains flocons passent devant, d'autres derrière le bonhomme
+- recopier le code de la démonstration dans le fichier _bonhomme.js_ et constater que les flocons s'affichent bien
+  - en cas de problème, utiliser l'onglet _Console_ pour les messages d'erreur et l'onglet _Source_ pour mettre des points d'arrêt
+- faire en sorte que les flocons aient une position aléatoire en utilisant _Math.random_
+- certains flocons passent devant, d'autres derrière le bonhomme
+- éviter que les flocons se chevauchent en les positionnant les uns par rapport aux autres
 
 ### Exercice 5 : Animez le contenu en javascript
-- utiliser `setInterval` pour effectuer une animation régulière
-
+- utiliser `setInterval` pour faire tomber les flocons par terre
+  - chaque flocon aura une position _top_ qui augmentera jusqu'à dépasser la hauteur de l'écran (par exemple on peut utiliser comme unité [_vh_](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Sizing_items_in_CSS#Viewport_units)) 
+  - quand la hauteur est dépassée, les repositionner en haut pour générer une neige qui tombe à l'infini
 
