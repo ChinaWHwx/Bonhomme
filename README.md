@@ -11,10 +11,10 @@ Nous n'utilisons pas de framework ni d'outil comme NPM dans ce TD.
 `git clone https://gitlab.isima.fr/bcaure/td0-basic-html-css-js.git`
 - Créez une branche :
 `cd td0-basic-html-css-js`
-`git branch 2019-<nom(s) de famille>`
-`git checkout 2019-<nom(s) de famille>`
+`git branch 2021-<nom de famille>`
+`git checkout 2021-<nom de famille>`
 - Poussez votre branche sur Gitlab :
-`git push -u origin 2019-<nom(s) de famille>`
+`git push -u origin 2021-<nom de famille>`
 
 
 ### Démonstration
