@@ -1,0 +1,118 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.background {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.bonhomme {
+    width: 300px;
+    height: 500px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hat {
+    width: 100px;
+    height: 75px;
+    z-index: 4;
+}
+
+.hat-bas {
+    width: 150px;
+    height: 5px;
+    border-radius: 5px;
+    z-index: 3;
+}
+
+.head {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 100px;
+    z-index: 2;
+}
+
+.eyes {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+}
+
+.eye {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.left {
+    margin-right: 20px;
+}
+
+.right {
+    margin-left: 20px;
+}
+
+.body {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    z-index: 1;
+}
+
+.nose {
+    width: 50px;
+    height: 15px;
+    border-radius: 5px;
+    background-color: orangered;
+    transform: rotate(-20deg);
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+.mouth {
+    width: 50px;
+    height: 20px;
+    border-radius: 15px;
+    border-bottom: 5px solid black;
+}
+
+.enfonce {
+    margin-top: -15px;
+}
+
+.white {
+    border: 1px solid black;
+    background-color: white;
+}
+
+.black {
+    border: 1px solid black;
+    background-color: black;
+}
+
+.flocon {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+    border: 1px solid rgb(133, 141, 216);
+    background-color: rgb(231, 240, 243);
+}
